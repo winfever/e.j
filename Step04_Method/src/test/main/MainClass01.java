@@ -1,0 +1,21 @@
+package test.main;
+
+public class MainClass01 {
+	
+	// run 했을때 실행순서가 시작되는 특별한 메소드
+	public static void main(String[] args) { // String[]  args   args는 지역변수   String[]은 지역변수의 타입.
+		System.out.println("main() 시작됨");
+		
+		MainClass01.gura();
+		
+		System.out.println("main() 종료됨");
+	}
+	// MainClass01 의 static 맴버 메소드 gura() 메소드 만들기
+	public static void gura() {
+		System.out.println("gura() 시작됨");
+		
+		System.out.println("gura() 종료됨");
+		
+	}
+	
+}

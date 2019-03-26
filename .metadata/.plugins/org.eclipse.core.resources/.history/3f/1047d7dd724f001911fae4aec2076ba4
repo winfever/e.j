@@ -1,0 +1,28 @@
+package test.main;
+/*
+ *  [ 연산자 ]
+ *  
+ *  1. 산술 연산자
+ *  
+ *  - 종류 : +, -, *, /, %
+ */
+public class MainClass01 {
+	public static void main(String[] args) {
+		int num1=5;
+		int num2=2;
+		
+		// + 연산자를 이용해서 두수의 합 구하기
+		int sum = 10 + 1;
+		int sum2 = num1 + num2;
+		int snum3 = 10 + num2;
+		
+		// 정수 / 정수 => 정수 이므로 결과적으로
+		// 5를 3으로 나눈 묷을 얻어낸다.
+		int result1 = 5 / 3;
+		// 정수 / 정수 => 정수이므로 결과적으로
+		// 5를 2으로 나눈 몫을 얻어낸다.
+		int result2 = 5 / 2;
+		System.out.println(result2);
+	}
+
+}

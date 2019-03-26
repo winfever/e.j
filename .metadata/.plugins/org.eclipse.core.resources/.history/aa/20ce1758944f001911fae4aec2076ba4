@@ -1,0 +1,11 @@
+package test.main;
+
+public class MainClass02 {
+	public static void main(String[] args) {
+		
+	}
+	// MainClass02 의 static 맴버 메소드
+	public static void showMsg(String msg) {
+		System.out.println("msg:"+msg);
+	}
+}
